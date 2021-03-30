@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
-    /* width not affected by padding or border */
     box-sizing: border-box;
 }
 
@@ -19,4 +16,15 @@ body {
     overflow: hidden;
     /* no margins  */
     margin: 0;
+}
+
+.background {
+    background: url("https://source.unsplash.com/6dqCCs0vCcU/1920x1280") no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
 }
